@@ -4,7 +4,7 @@ public class NestedList {
         double sum;
         int numberOfStudents;
         double nextScore;
-        String answer = "yes";
+        String answer;
 
         Scanner input = new Scanner(System.in);
 
@@ -26,5 +26,7 @@ public class NestedList {
 
             answer = input.next();
         } while (answer.equalsIgnoreCase("yes"));
+        input.close();
     }
+
 }

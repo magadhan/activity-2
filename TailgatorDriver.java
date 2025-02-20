@@ -1,6 +1,6 @@
 public class TailgatorDriver {
     public static void main(String[] args) {
-        Tailgator tailgator1 = new Tailgator("Athira", true);
+        Tailgator tailgator1 = new Tailgator("Athira", false);
 
 
         tailgator1.getName();

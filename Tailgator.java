@@ -1,6 +1,6 @@
 public class Tailgator {
-    private static int drinksInCooler;
-    private static int numberOfTailgaters;
+    private static int drinksInCooler = 0;
+    private static int numberOfTailgaters = 0;
 
     public static int getNumberOfTailgaters() {
         return numberOfTailgaters;
@@ -46,4 +46,5 @@ public class Tailgator {
         System.out.println(drinksInCooler);
     }
 
+    
 }

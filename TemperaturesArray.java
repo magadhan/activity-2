@@ -32,5 +32,7 @@ public class TemperaturesArray{
                 System.out.println(temps[i] + " below average");
             }
         }
+
+        input.close();
     }
 }
